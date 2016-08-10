@@ -3,25 +3,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Bernardo Bosak de Rezende</title>
-  <link rel="stylesheet" type="text/css" href="styles/default-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/default-theme.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,300">
   <link href="https://fonts.googleapis.com/css?family=Mitr:400,600" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1>Bernardo Bosak de Rezende</h1>
-    <h3>Coffee 'n' code</h3>
+    <h3>Coffee'n'code</h3>
   </header>
-  <section>
+  <nav id="menu">
     <ul>
-      <li>Bio</li>
-      <li>Interests</li>
-      <li>Presentations</li>
-      <li>Projects</li>
-      <li>Contacts</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#">Interests</a></li>
+      <li><a href="#">Presentations</a></li>
+      <li><a href="#">Projects</a></li>
     </ul>
-    <article>
-      Some content
+  </nav>
+  <hr>
+  <section id="content">
+    <article id="about">
+      <img class="avatar" src="assets/img/bernardo.png">
+      <div id="about-texts">
+        <p>I'm a passionate developer crafting software for 10 years, with focus on innovation projects and helping companies with brownfield scenarios. I'm a great fan of open source and collaborative projects and I truly believe knowledge sharing is a powerful tool for building a better world.</p>
+        <p>I work hard with software education, helping young people (young in spirit :) to reach new horizons and boundaries through software development.</p>
+        <p>If you share the same passions and values feel free to contact me:</p>
+        <p id="contact-info">
+          <a href="mailto:bernardo@craftsoftware.com.br">bernardo@craftsoftware.com.br</a>
+          <a href="https://github.com/bernardobrezende" target="_blank">
+            <img class="social-icon" src="assets/img/github.png" alt="GitHub Profile">
+          </a>
+          <a href="https://www.linkedin.com/in/bernardobrezende" target="_blank">
+            <img class="social-icon" src="assets/img/linkedin.png" alt="LinkedIn Profile">
+          </a>
+          <a href="http://stackoverflow.com/users/5194966/bernardo-bosak-de-rezende?tab=profile" target="_blank">
+            <img class="social-icon" src="assets/img/stackoverflow.png" alt="StackOverflow Profile">
+          </a>
+          <a href="https://www.codewars.com/users/bernardobrezende" target="_blank">
+            <img class="social-icon" src="assets/img/codewars.png" alt="Codewars Profile">
+          </a>
+        </p>
+      </div>
     </article>
   </section>
   <footer>
@@ -29,7 +51,8 @@
       <a href="#">English</a>
       <a href="#">Portuguese</a>
     </span>
-    <span>&copy; <span id="copyYear">2016</span> Bernardo Bosak de Rezende</span>
+    <span>&copy; <span id="copyYear"></span> Bernardo Bosak de Rezende</span>
   </footer>
+  <script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>
