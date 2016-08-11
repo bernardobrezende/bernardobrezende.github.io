@@ -21,6 +21,7 @@ footer {
   text-align: center;
   width: 100%;
   padding: 15;
+  font-size: 13;
 }
 body {
   background-color: #E8EBE4;
@@ -79,6 +80,9 @@ footer > span {
 #about .avatar {
   float: right;
   margin: 0 0 35 35;
+}
+#presentations > ul > li {
+  font-size: 16;
 }
 #contact-info a:first-child {
   display: block;
